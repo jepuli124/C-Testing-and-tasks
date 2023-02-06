@@ -68,7 +68,7 @@ int main(void){
     iInput2 = amount();
     random(iInput2, aGenerated);
     testc(aGenerated);
-    printf("\nGeneroitiin merkkijono '%s', jossa on '%li' merkkiä.\n", aGenerated, strlen(aGenerated));
+    printf("\nGeneroitiin merkkijono '%s', jossa on %li merkkiä.\n", aGenerated, strlen(aGenerated));
     printf("Kiitos ohjelman käytöstä.\n");
     return(0);
 }
