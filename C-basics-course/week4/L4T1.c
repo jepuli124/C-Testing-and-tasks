@@ -36,7 +36,7 @@ int main(void){
     printf("Anna kappaleen julkaisuvuosi: ");
     scanf("%i", &Omusic.iInput);
     printf("Kappaleen nimi on '%s' ja esittäjä '%s'.\n", Omusic.aName, Omusic.aSong);
-    printf("Kappale on %s minuuttia pitkä julkaistu vuonna %i.\n", Omusic.aTime, Omusic.iInput);
+    printf("Kappale on %s minuuttia pitkä ja julkaistu vuonna %i.\n", Omusic.aTime, Omusic.iInput);
     printf("Kiitos ohjelman käytöstä.\n");
     return(0);
 }
