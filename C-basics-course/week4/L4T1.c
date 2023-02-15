@@ -13,9 +13,9 @@
 struct song
 {
     int iInput;
-    char aName[iMax];
-    char aSong[iMax];
-    char aTime[iMax];
+    char aName[IMAX];
+    char aSong[IMAX];
+    char aTime[IMAX];
 
 };
 
@@ -25,13 +25,13 @@ struct song
 int main(void){
     struct song Omusic;
     printf("Anna kappaleen nimi: ");
-    fgets(Omusic.aName, iMax, stdin);
+    fgets(Omusic.aName, IMAX, stdin);
     Omusic.aName[strlen(Omusic.aName)-1] = '\0';
     printf("Anna kappaleen esittäjä: ");
-    fgets(Omusic.aSong, iMax, stdin);
+    fgets(Omusic.aSong, IMAX, stdin);
     Omusic.aSong[strlen(Omusic.aSong)-1] = '\0';
     printf("Anna kappaleen pituus: ");
-    fgets(Omusic.aTime, iMax, stdin);
+    fgets(Omusic.aTime, IMAX, stdin);
     Omusic.aTime[strlen(Omusic.aTime)-1] = '\0';
     printf("Anna kappaleen julkaisuvuosi: ");
     scanf("%i", &Omusic.iInput);
