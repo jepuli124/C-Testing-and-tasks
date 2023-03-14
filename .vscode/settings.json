@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "l7t1kirjasto.h": "c",
+        "l7t2kirjasto.h": "c",
+        "htkirjasto.h": "c"
+    }
+}

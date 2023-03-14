@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
  
-#define iMax 30 
+#define IMAX 30 
 
 /* 202328JalkanenKonstaL4T3*/
 
@@ -33,7 +33,7 @@ void write(char *aFilename, CALCULATION listOfCL[IMAX], int iAmount){
     return;
 }
 
-CALCULATION choise1(char *aFilename, int *iValue){
+CALCULATION addNumber(char *aFilename, int *iValue){
     int iInput3 = 0;
     char aChanger[IMAX];
     printf("\nAnna lukuun lisättävä kokonaisluku: ");
@@ -100,7 +100,7 @@ int main(void) {
         printf("\nValitse haluamasi toiminto:\n1) Lisää lukuun\n2) Kirjoita historia tiedostoon\n3) Lue historia tiedostosta\n0) Lopeta\nAnna valintasi: ");
         scanf("%i", &iInput2);
         if (iInput2 == 1){
-            listOfCL[iCounter3] = choise1(aInput, &iFirstNumber);
+            listOfCL[iCounter3] = addNumber(aInput, &iFirstNumber);
             iCounter3++;
         }
         else if (iInput2 == 2){
