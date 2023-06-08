@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
  
-#define IMAX 127 
+#define IMAX 127
 
 /* 2023222JalkanenKonstaL7T2*/
 

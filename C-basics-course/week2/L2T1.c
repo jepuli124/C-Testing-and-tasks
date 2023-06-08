@@ -8,9 +8,7 @@ int iInput;
 int main(void) {
     printf("Anna palautettujen tehtävien lukumäärä: ");
     scanf("%i", &iInput);
-    if (iInput <= 14 ) {
-        printf("Olet palauttanut %i tehtävää, joten arvosanasi on 0.", iInput);
-    }
+    if (iInput <= 14 ) {printf("Olet palauttanut %i tehtävää, joten arvosanasi on 0.", iInput); }
     else if(iInput <= 17){
         printf("Olet palauttanut %i tehtävää, joten arvosanasi on 1.", iInput);
     }
